@@ -72,9 +72,9 @@ h1{
   margin-top: 10px;
 }
 
-#mc_embed_signup input.email{
-  border: 0px;
-  height: 35px;
+.btn{
+  margin-top: 8px;
+  margin-left: 4px;
 }
 
 footer.page-footer {
