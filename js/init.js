@@ -4,16 +4,17 @@
     // $('.button-collapse').sideNav();
     $('.parallax').parallax();
 
+
     });
   // end of document ready
 })(jQuery); // end of jQuery name space
 
 
-$('#myButton').click(function() {
-   $.scrollTo($('#myDiv'), 1000);
-});
 
 
+    $('#myButton').click(function() {
+       $.scrollTo($('#myDiv'), 1000);
+    });
 // $('a[href*=#]').click(function(event){
 //   console.log(this)
 //
