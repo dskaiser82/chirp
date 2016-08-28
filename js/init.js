@@ -10,6 +10,11 @@
 })(jQuery); // end of jQuery name space
 
 
+      //myButton is the id
+    $('#myContact').click(function() {
+      //myDiv is the href
+       $.scrollTo($('#myDiv'), 1000);
+    });
 
       //myButton is the id
     $('#myButton').click(function() {
