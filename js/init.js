@@ -11,8 +11,9 @@
 
 
 
-
+      //myButton is the id
     $('#myButton').click(function() {
+      //myDiv is the href
        $.scrollTo($('#myDiv'), 1000);
     });
 // $('a[href*=#]').click(function(event){
