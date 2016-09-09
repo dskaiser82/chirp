@@ -78,6 +78,10 @@ h1{
   color: #5accf5;
 }
 
+.beige-back{
+  background-color: #1d2129;
+  opacity: 0.8;
+}
 
 footer.page-footer {
   margin: 0;
