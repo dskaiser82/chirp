@@ -52,6 +52,12 @@ p {
   font-size: inherit;
 }
 
+i.material-icons{
+    color: #5accf5;
+}
+
+
+
 .blue-bird{
   margin-left: 5%;
   margin-top: -26%;
