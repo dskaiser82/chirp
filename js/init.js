@@ -6,8 +6,8 @@
 
     $('.button-collapse').sideNav();
     });
-
-    // $( ".close" ).click(function() {
+    //
+    // $( ".close" ).click(function(event) {
     // $( "#nav-mobile" ).hide();
     // });
     //
