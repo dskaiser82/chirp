@@ -45,6 +45,11 @@ p {
   }
 }
 
+#sidenav-overlay{
+background-color: rgba(253, 250, 250, 0.5);
+position: static;
+}
+
 .icon-block {
   padding: 0 15px;
 }
@@ -55,7 +60,6 @@ p {
 i.material-icons{
     color: #5accf5;
 }
-
 
 
 .blue-bird{

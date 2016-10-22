@@ -4,6 +4,10 @@
     // $('.button-collapse').sideNav();
     $('.parallax').parallax();
 
+    $('.button-collapse').sideNav();
+
+
+
 
     });
   // end of document ready
