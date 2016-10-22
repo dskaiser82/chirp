@@ -5,8 +5,15 @@
     $('.parallax').parallax();
 
     $('.button-collapse').sideNav();
-
     });
+
+    // $( ".close" ).click(function() {
+    // $( "#nav-mobile" ).hide();
+    // });
+    //
+    // $( ".material-icons" ).click(function() {
+    // $( "#nav-mobile" ).show();
+    // });
   // end of document ready
 })(jQuery); // end of jQuery name space
 
