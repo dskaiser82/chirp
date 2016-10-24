@@ -51,7 +51,10 @@ body{
     background-color: white;
   }
   iframe{
-    height:100px;
+    height: 500px;
+  }
+  h3{
+    font-size: 12px;
   }
 }
 
