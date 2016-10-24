@@ -15,12 +15,16 @@ p {
   line-height: 2rem;
 }
 
+body{
+  background-color: white;
+}
+
 .button-collapse {
   color: #26a69a;
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 600px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -42,6 +46,12 @@ p {
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+  body{
+    background-color: white;
+  }
+  iframe{
+    height:100px;
   }
 }
 
