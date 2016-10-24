@@ -50,11 +50,12 @@ body{
   body{
     background-color: white;
   }
+
   iframe{
-    height: 500px;
+    height: 300px;
   }
   h3{
-    font-size: 12px;
+    font-size: 20px;
   }
 }
 
@@ -75,7 +76,7 @@ i.material-icons{
 }
 
 
-.blue-bird{
+#blue-bird{
   margin-left: 5%;
   margin-top: -26%;
   font-size: 35px;
