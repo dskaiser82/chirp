@@ -107,15 +107,24 @@ footer.page-footer {
   body{
     background-color: white;
   }
-  #move-fb{
-    height: 300px;
-    margin-right: auto;
-    background-color: purple;
+  h1 {
+    margin-top: 10.1%;
+    font-size: 21px;
   }
-#blue-bird{
+  #move-fb{
+    height: 580px;
+    margin-right: 178px;
+  }
+  #blue-bird{
   display: none;
  }
  #blue-bird-mobile{
    display: block;
+   background-color: black;
+   opacity: 0.75;
+ }
+ #blue-bird-mobile > p {
+   margin-left: 15%;
+
  }
 }
