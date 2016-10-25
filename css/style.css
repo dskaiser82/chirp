@@ -108,7 +108,7 @@ footer.page-footer {
     background-color: white;
   }
   h1 {
-    margin-top: 10.1%;
+    margin-top: 16.1%;
     font-size: 21px;
   }
   img{
@@ -130,4 +130,10 @@ footer.page-footer {
    margin-left: 15%;
 
  }
+}
+
+@media only screen and (max-width : 330px) {
+  #actual-fb {
+    height: 320px;
+    margin-right: 300px;
 }
