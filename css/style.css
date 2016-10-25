@@ -111,6 +111,9 @@ footer.page-footer {
     margin-top: 10.1%;
     font-size: 21px;
   }
+  img{
+    height: 75%;
+  }
   #move-fb{
     height: 580px;
     margin-right: 178px;
