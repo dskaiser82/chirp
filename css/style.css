@@ -69,15 +69,22 @@ i.material-icons{
 
 
 #blue-bird{
-  margin-left: 12%;
-  margin-top: -26%;
-  text-shadow: 2px 2px 5px black;
+ margin-left: 6%;
+ margin-top: -26%;
+ padding-left: 8%;
+ width: 55%;
+ text-shadow: 2px 2px 5px black;
 }
 
 #blue-bird-mobile{
   display: none;
 }
 
+#move-fb{
+  margin-left: -1%;
+  margin-right: -39%;
+  padding-left: 0%;
+}
 
 
 h1{
