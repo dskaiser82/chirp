@@ -86,6 +86,13 @@ i.material-icons{
   padding-left: 0%;
 }
 
+#about{
+  margin-top: -4%;
+  height: 1px;
+  position: absolute;
+}
+
+
 #subscribe{
   margin-top: -10%;
   height: 1px;
