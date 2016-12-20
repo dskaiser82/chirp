@@ -165,27 +165,29 @@ footer.page-footer {
   }
   h1 {
     margin-top: 16.1%;
-    font-size: 21px;
+    font-size: 40px;
   }
   img{
     height: 75%;
   }
   #move-fb{
     height: 580px;
-    margin-right: 178px;
+    margin-left: 9%;
   }
   #blue-bird{
   display: none;
  }
  #blue-bird-mobile{
    display: block;
-   background-color: black;
+   color: black;
    opacity: 0.75;
+   text-align: center;
+   font-size: 19px;
  }
  #blue-bird-mobile > p {
-   margin-left: 15%;
 
  }
+
 
 }
 
@@ -195,4 +197,5 @@ footer.page-footer {
     margin-right: 300px;
     width: 300px;
  }
+
 }
