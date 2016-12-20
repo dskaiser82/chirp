@@ -7,7 +7,7 @@
  */
 
  .videoplayer{
-    position: fixed;
+   position: fixed;
    top: 50%;
    left: 50%;
    width: 100%;
@@ -146,14 +146,13 @@ footer.page-footer {
 /*///////////////////////////////////Media Queries///////////////////////////*/
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
-    position: absolute;
-    top: 40%;
+
   }
   #index-banner .section {
     top: 10%;
   }
   .videoplayer{
-    width: 270%;
+    display: none;
   }
 }
 
