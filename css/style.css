@@ -107,7 +107,7 @@ i.material-icons{
 }
 
 #contact{
-  margin-top: 0%;
+  margin-top: -10%;
   height: 1px;
   position: absolute;
 }
@@ -145,6 +145,11 @@ h1{
 }
 
 
+.page-footer{
+  margin-top: -19px !important ;
+ }
+
+
 
 /*///////////////////////////////////Media Queries///////////////////////////*/
 @media only screen and (max-width : 992px) {
@@ -166,9 +171,6 @@ h1{
         display: none;
       }
 
-   .page-footer{
-    margin-top: -19px !important ;
-   }
 }
 
 
