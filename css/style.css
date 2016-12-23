@@ -70,7 +70,7 @@ i.material-icons{
 
 #blue-bird{
  margin-left: 6%;
- margin-top: -26%;
+ margin-top: -18%;
  padding-left: 8%;
  width: 55%;
  text-shadow: 2px 2px 5px black;
@@ -84,6 +84,7 @@ i.material-icons{
   margin-left: -1%;
   margin-right: -39%;
   padding-left: 0%;
+  margin-top: -5%;
 }
 
 #about{
@@ -143,30 +144,42 @@ h1{
   background-color: white;
 }
 
-footer.page-footer {
-  margin: -10%;
-}
 
 
 /*///////////////////////////////////Media Queries///////////////////////////*/
 @media only screen and (max-width : 992px) {
-  .parallax-container .section {
+  /*.parallax-container .section {
     position: absolute;
     top: 40%;
 
   }
   #index-banner .section {
     top: 10%;
-  }
-  .videoplayer{
-    display: none;
-  }
+  }*/
+
+   #blue-bird > h3{
+     color: black;
+     text-shadow: 0px 0px 0px white;
+    }
+
+    .videoplayer{
+        display: none;
+      }
+
+   .page-footer{
+    margin-top: -19px !important ;
+   }
 }
+
+
+
+
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
   }
+
 
   h1 {
     margin-top: 16.1%;
