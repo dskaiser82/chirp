@@ -218,5 +218,12 @@ h1{
     height: 580px;
     margin-left: 4%;
   }
+}
 
+
+@media only screen and (max-width : 320px) {
+  #move-fb{
+    height: 580px;
+    margin-left: 0%;
+  }
 }
