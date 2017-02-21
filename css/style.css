@@ -231,4 +231,7 @@ iframe{
     height: 580px;
     margin-left: 0%;
   }
+  iframe{
+    margin-left: -5px
+  }
 }
