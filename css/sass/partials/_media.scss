@@ -11,15 +11,6 @@ position: relative;
 
 /*///////////////////////////////////Media Queries///////////////////////////*/
 @media only screen and (max-width : 992px) {
-  /*.parallax-container .section {
-    position: absolute;
-    top: 40%;
-
-  }
-  #index-banner .section {
-    top: 10%;
-  }*/
-
    #blue-bird > h3{
      color: black;
      text-shadow: 0px 0px 0px white;
@@ -30,7 +21,6 @@ position: relative;
   #index-banner .section {
     top: 0;
   }
-
   h1 {
     margin-top: 16.1%;
     font-size: 40px;
@@ -62,7 +52,6 @@ iframe{
   height: 180px;
 }
 
-
 }
 
 @media only screen and (max-width : 375px) {
@@ -80,7 +69,6 @@ iframe{
     font-size: 14px;
   }
 }
-
 
 @media only screen and (max-width : 320px) {
   #move-fb{
