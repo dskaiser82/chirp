@@ -1,2 +1,4 @@
-// Sass Compiling for Styling
-sass --watch css/sass/style.scss:css/style.css
+@import "partials/global";
+@import "partials/top";
+@import "partials/middle";
+@import "partials/media";

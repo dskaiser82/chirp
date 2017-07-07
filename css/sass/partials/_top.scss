@@ -1,0 +1,41 @@
+ .videoplayer{
+ position: absolute;;
+ margin-top: 31%;
+ left: 50%;
+ width: 100%;
+ /*min-width: 100%;
+ min-height: 100%:
+ height: auto;
+ z-index: -100;*/
+ -ms-transform: translateX(-50%) translateY(-50%);
+ -moz-transform: translateX(-50%) translateY(-50%);
+ -webkit-transform: translateX(-50%) translateY(-50%);
+ transform: translateX(-50%) translateY(-50%);
+ background-size: cover;
+  }
+
+  //For Top Nav
+  .white{
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 100;
+  }
+  .brand-logo{
+    margin-top: 10px;
+  }
+
+//Top Section
+  #blue-bird{
+   margin-left: 6%;
+   margin-top: -18%;
+   padding-left: 8%;
+   width: 55%;
+   text-shadow: 2px 2px 5px black;
+  }
+
+  #move-fb{
+    margin-left: -1%;
+    margin-right: -39%;
+    padding-left: 0%;
+    margin-top: -5%;
+  }

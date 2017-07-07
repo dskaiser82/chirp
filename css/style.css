@@ -1,189 +1,143 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
- .videoplayer{
- position: absolute;;
- margin-top: 31%;
- left: 50%;
- width: 100%;
- /*min-width: 100%;
- min-height: 100%:
- height: auto;
- z-index: -100;*/
- -ms-transform: translateX(-50%) translateY(-50%);
- -moz-transform: translateX(-50%) translateY(-50%);
- -webkit-transform: translateX(-50%) translateY(-50%);
- transform: translateX(-50%) translateY(-50%);
- background-size: cover;
-  }
-
-
-
 nav ul a,
 nav .brand-logo {
-  color: #444;
-}
+  color: #444; }
 
 p {
-  line-height: 2rem;
-}
+  line-height: 2rem; }
 
-body{
-  background-color: white;
-}
+body {
+  background-color: white; }
+
+h1 {
+  margin-top: 7.1%;
+  position: inherit; }
 
 .button-collapse {
-  color: #26a69a;
-}
+  color: #26a69a; }
 
 .parallax-container {
   min-height: 600px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
-}
-  .parallax-container .section {
-    width: 100%;
-  }
+  color: rgba(255, 255, 255, 0.9); }
 
+.parallax-container .section {
+  width: 100%; }
 
+#about {
+  margin-top: -4%;
+  height: 1px;
+  position: absolute; }
 
-#sidenav-overlay{
-background-color: rgba(253, 250, 250, 0.5);
-position: relative;
-}
+#subscribe {
+  margin-top: -10%;
+  height: 1px;
+  position: absolute; }
 
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
+#advertise {
+  margin-top: 0%;
+  height: 1px;
+  position: absolute; }
 
-i.material-icons{
-    color: #5accf5;
-}
+#contact {
+  margin-top: -10%;
+  height: 1px;
+  position: absolute; }
 
+.videoplayer {
+  position: absolute;
+  margin-top: 31%;
+  left: 50%;
+  width: 100%;
+  /*min-width: 100%;
+  min-height: 100%:
+  height: auto;
+  z-index: -100;*/
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover; }
 
-#blue-bird{
- margin-left: 6%;
- margin-top: -18%;
- padding-left: 8%;
- width: 55%;
- text-shadow: 2px 2px 5px black;
-}
+.white {
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 100; }
 
-#blue-bird-mobile{
-  display: none;
-}
+.brand-logo {
+  margin-top: 10px; }
 
-#move-fb{
+#blue-bird {
+  margin-left: 6%;
+  margin-top: -18%;
+  padding-left: 8%;
+  width: 55%;
+  text-shadow: 2px 2px 5px black; }
+
+#move-fb {
   margin-left: -1%;
   margin-right: -39%;
   padding-left: 0%;
-  margin-top: -5%;
-}
+  margin-top: -5%; }
 
-#about{
-  margin-top: -4%;
-  height: 1px;
-  position: absolute;
-}
+.fa {
+  color: #5accf5; }
 
+.icon-block {
+  padding: 0 15px; }
 
-#subscribe{
-  margin-top: -10%;
-  height: 1px;
-  position: absolute;
-}
+.icon-block .material-icons {
+  font-size: inherit; }
 
-#advertise{
-  margin-top: 0%;
-  height: 1px;
-  position: absolute;
-}
+i.material-icons {
+  color: #5accf5; }
 
-#contact{
-  margin-top: -10%;
-  height: 1px;
-  position: absolute;
-}
-
-
-h1{
-  margin-top: 7.1%;
-  position: inherit;
-}
-
-
-.video-hold{
-}
-
-
-.white{
-  background-color: #ffffff;
-  position: fixed;
-  z-index: 100;
-}
-
-.brand-logo{
-  margin-top: 10px;
-}
-
-.fa{
-  color: #5accf5;
-}
-
-.beige-back{
+.beige-back {
   background-color: #eaeaea;
   color: black;
   opacity: 0.8;
-  margin-top: -9%;
-}
-.beige-video{
-  background-color: rgba(234, 234, 234, 0.7);};
-}
+  margin-top: -9%; }
 
-.bg-white{
-  background-color: white;
-}
+.beige-video {
+  background-color: rgba(234, 234, 234, 0.7); }
 
-.call-action{
+.bg-white {
+  background-color: white; }
+
+.call-action {
   background-color: #6b6969;
   color: white;
-  padding-bottom: 5px;
-}
-.youtuber{
+  padding-bottom: 5px; }
+
+.youtuber {
   padding-top: 10px;
-  padding-bottom: 10px;
-}
-.ind-logos{
+  padding-bottom: 10px; }
+
+.ind-logos {
   background-color: white;
-  color: black;
-}
-.proud{
-  background-color: red;
-}
-.naa{
-  max-height: 45px;
-}
-.iaa{
-  max-height: 45px;
-}
+  color: black; }
 
-.page-footer{
-  margin-top: -36px !important ;
- }
+.proud {
+  background-color: red; }
 
+.naa {
+  max-height: 45px; }
 
+.iaa {
+  max-height: 45px; }
+
+.page-footer {
+  margin-top: -36px !important; }
+
+#sidenav-overlay {
+  background-color: rgba(253, 250, 250, 0.5);
+  position: relative; }
+
+#blue-bird-mobile {
+  display: none; }
 
 /*///////////////////////////////////Media Queries///////////////////////////*/
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width: 992px) {
   /*.parallax-container .section {
     position: absolute;
     top: 40%;
@@ -192,77 +146,61 @@ h1{
   #index-banner .section {
     top: 10%;
   }*/
+  #blue-bird > h3 {
+    color: black;
+    text-shadow: 0px 0px 0px white; }
 
-   #blue-bird > h3{
-     color: black;
-     text-shadow: 0px 0px 0px white;
-    }
-
-    .videoplayer{
-        display: none;
-      }
-
-}
-
-@media only screen and (max-width : 600px) {
+  .videoplayer {
+    display: none; } }
+@media only screen and (max-width: 600px) {
   #index-banner .section {
-    top: 0;
-  }
+    top: 0; }
 
   h1 {
     margin-top: 16.1%;
-    font-size: 40px;
-  }
+    font-size: 40px; }
+
   h2 {
-    font-size: 25px;
-  }
-  img{
-    height: 75%;
-  }
-  #move-fb{
+    font-size: 25px; }
+
+  img {
+    height: 75%; }
+
+  #move-fb {
     height: 580px;
-    margin-left: 9%;
-  }
-  #blue-bird{
-  display: none;
- }
- #blue-bird-mobile{
-   font-family: 'Roboto', sans-serif;
-   font-weight: bold;
-   display: block;
-   color: #003399;
-   opacity: 0.75;
-   text-align: center;
-   font-size: 19px;
- }
-iframe{
-  width: 320px;
-  height: 180px;
-}
+    margin-left: 9%; }
 
+  #blue-bird {
+    display: none; }
 
-}
+  #blue-bird-mobile {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    display: block;
+    color: #003399;
+    opacity: 0.75;
+    text-align: center;
+    font-size: 19px; }
 
-@media only screen and (max-width : 375px) {
-  #move-fb{
+  iframe {
+    width: 320px;
+    height: 180px; } }
+@media only screen and (max-width: 375px) {
+  #move-fb {
     height: 580px;
-    margin-left: 4%;
-  }
-  .call-action h4, .beige-back h4{
-    font-size: 18px;
-  }
-  .call-action h5, .beige-back h5{
-    font-size: 14px;
-  }
-}
+    margin-left: 4%; }
 
+  .call-action h4, .beige-back h4 {
+    font-size: 18px; }
 
-@media only screen and (max-width : 320px) {
-  #move-fb{
+  .call-action h5, .beige-back h5 {
+    font-size: 14px; } }
+@media only screen and (max-width: 320px) {
+  #move-fb {
     height: 580px;
-    margin-left: 0%;
-  }
-  iframe{
-    margin-left: -5px
-  }
-}
+    margin-left: 0%; }
+
+  iframe {
+    margin-left: -5px; } }
+
+/*# sourceMappingURL=style.css.map */
