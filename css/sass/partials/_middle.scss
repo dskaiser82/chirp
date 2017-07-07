@@ -2,7 +2,7 @@
 
 //**Icons**//
 .fa{
-  color: #5accf5;
+  color: $chirp-blue;
 }
 .icon-block {
   padding: 0 15px;
@@ -11,7 +11,7 @@
   font-size: inherit;
 }
 i.material-icons{
-    color: #5accf5;
+    color: $chirp-blue;
 }
 
 .beige-back{
@@ -27,7 +27,7 @@ i.material-icons{
   background-color: white;
 }
 .call-action{
-  background-color: #6b6969;
+  background-color: $chirp-blue;
   color: white;
   padding-bottom: 5px;
 }
@@ -36,11 +36,7 @@ i.material-icons{
   padding-bottom: 10px;
 }
 .ind-logos{
-  background-color: white;
   color: black;
-}
-.proud{
-  background-color: red;
 }
 .naa{
   max-height: 45px;
